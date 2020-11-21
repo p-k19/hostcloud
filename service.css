@@ -1,0 +1,236 @@
+.section-heading span {
+color: #00bcda;
+font-weight: 700;
+}
+
+.service-item h4 {
+    padding: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.imgsetting {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background: #00bcda;
+    margin: auto;
+}
+
+.serv {
+    background-color: rgba(236, 242, 243, 0.568);
+    border: 10px solid white;
+    padding: 50px 0px 50px 0px;
+    border-radius: 15px;
+}
+
+.aboutimg {
+    background-image: url(about.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+}
+
+
+/ Slideshow container /
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/ Slides /
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+/ Position the "next button" to the right /
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/ On hover, add a black background color with a little bit see-through /
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/ The dot/bullet/indicator container /
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/ The dots/bullets/indicators /
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/ Add a background color to the active dot/circle /
+.active, .dot:hover {
+  background-color: #00bcd4;
+}
+
+/ Add an italic font style to all quotes /
+q {font-style: italic;}
+
+/ Add a blue color to the author /
+.author {color: cornflowerblue;}
+@media (min-width: 150px)
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+@media (min-width: 768px)
+.offset-md-2 {
+    margin-left: 16.666667%;
+}
+@media (min-width: 768px)
+.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}  
+
+.banner {
+    background-image: url(bgct.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0px;
+    background-position: center center;
+    height: 200px;
+    margin-top: -20px;
+    width: 100%;
+
+}
+
+.banner .caption h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+}
+footer {
+
+    background-image: url(ft.jpeg);
+    padding: 70px 0px 70px 0px;
+    color: white;
+    font-size: 11px;
+
+}
+
+i
+{
+  color: #00bcd4;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 10px;
+
+ }
+ 
+
+    a,a:hover {
+    color:#563d7c;
+    text-decoration:none;
+}
+
+
+.loader {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader.img {
+    width: 100px;
+}
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.thumb {
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#loading
+{
+    width: 100%;
+    height: 100vh;
+    background: #fff 
+    url('loading.gif') no-repeat center;
+    position: fixed;
+    z-index: 999999;
+}
+
+html,body
+{
+  width:100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.navbar-light .navbar-nav .nav-link {
+                    color:  white;
+                }
+
+            .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
+                color: white;
+            }   
+
+
+            .navbar-light .navbar-nav .nav-link.scroll {
+                    color: black !important;
+                }
+
+            .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand.sc {
+                color: black !important;
+            }
